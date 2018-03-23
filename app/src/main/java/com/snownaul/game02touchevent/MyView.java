@@ -45,8 +45,8 @@ public class MyView extends View {
         x=width/2;
         y=height/2;
 
-        dx=0;
-        dy=0;
+        dx=3;
+        dy=3;
 
         //행운의 편지 발송
         handler.sendEmptyMessageDelayed(0,10);
